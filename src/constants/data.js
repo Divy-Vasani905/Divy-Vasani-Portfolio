@@ -1,7 +1,6 @@
-import Me from "../assets/me.jpg";
+import Me from "../assets/me.JPG";
 import project1 from "../assets/project1.png";
 import project2 from "../assets/project2.png";
-import project3 from "../assets/project3.png";
 import ChessMate from "../assets/ChessMate.png";
 import FruitMerge from "../assets/FruitMerge.png";
 
@@ -35,7 +34,7 @@ export const portfolioData = {
     {
       title: "MyChatMX",
       description: "Real-time chat application with messaging & voice calling.",
-      image: project3,
+      image: project2,
       link: "https://github.com/Divy-Vasani-09/MyChatUp",
       tech: ["React", "Node.js", "MongoDB", "Socket.io"],
     },
