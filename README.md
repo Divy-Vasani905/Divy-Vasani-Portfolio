@@ -4,7 +4,7 @@ A modern and responsive personal portfolio website built with React, Vite, Tailw
 
 ## Live Demo
 
-🔗 https://divy-vasani905.github.io/Divy-Vasani-Portfolio/
+🔗 https://divy-vasani.vercel.app
 
 ---
 

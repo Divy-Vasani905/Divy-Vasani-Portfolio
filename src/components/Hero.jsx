@@ -38,7 +38,7 @@ const Hero = () => {
     >
       <img
         src={profile.image}
-        alt={`${profile.name} profile`}
+        alt="Divy Vasani profile"
         className="w-75 h-75 brightness-90 dark:brightness-75 rounded-full object-cover shadow-2xl shadow-cyan-500/20 dark:shadow-cyan-500/20 mx-auto md:mx-0"
       />
 
