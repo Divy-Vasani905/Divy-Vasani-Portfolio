@@ -95,7 +95,7 @@ export const portfolioData = {
     hobbies: "Gaming, UI Design, Playing Chess",
   },
   socials: {
-    github: "https://github.com/Divy-Vasani-09",
+    github: "https://github.com/Divy-Vasani905",
     linkedin: "https://www.linkedin.com/in/divy-vasani-371266282",
   },
 };

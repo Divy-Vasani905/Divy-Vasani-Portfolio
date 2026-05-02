@@ -24,7 +24,7 @@ const Footer = () => {
         </button>
       </div>
       <p className="tracking-wide">
-        © {new Date().getFullYear()} {profile.name} | Built with <span className="text-cyan-600 dark:text-cyan-500">React</span>, <span className="text-cyan-600 dark:text-cyan-500">Tailwind</span> & <span className="text-cyan-600 dark:text-cyan-500">Framer Motion</span>
+        © {new Date().getFullYear()} Divy Vasani | Built with <span className="text-cyan-600 dark:text-cyan-500">React</span>, <span className="text-cyan-600 dark:text-cyan-500">Tailwind</span> & <span className="text-cyan-600 dark:text-cyan-500">Framer Motion</span>
       </p>
     </footer>
   );

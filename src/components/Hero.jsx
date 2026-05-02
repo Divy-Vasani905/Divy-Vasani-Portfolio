@@ -43,10 +43,15 @@ const Hero = () => {
       />
 
       <div className="flex-1">
-        <h2 className="text-4xl md:text-5xl font-bold mb-6 font-mono bg-gradient-to-r from-cyan-500 via-green-500 to-blue-600 dark:from-cyan-400 dark:via-green-400 dark:to-blue-500 bg-clip-text text-transparent min-h-[4rem]">
+        {!profile && 
+          <h1 className="text-4xl md:text-5xl font-bold mb-6 font-mono bg-gradient-to-r from-cyan-500 via-green-500 to-blue-600 dark:from-cyan-400 dark:via-green-400 dark:to-blue-500 bg-clip-text text-transparent min-h-[4rem]">
+            Hi I'm Divy Vasani
+          </h1>
+        }
+        <h1 className="text-4xl md:text-5xl font-bold mb-6 font-mono bg-gradient-to-r from-cyan-500 via-green-500 to-blue-600 dark:from-cyan-400 dark:via-green-400 dark:to-blue-500 bg-clip-text text-transparent min-h-[4rem]">
           {text}
           <span className="animate-pulse text-green-500 dark:text-green-300">|</span>
-        </h2>
+        </h1>
 
         <p className="text-gray-700 dark:text-gray-300 text-lg max-w-xl leading-relaxed">
           {profile.description}
