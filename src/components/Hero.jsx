@@ -39,7 +39,7 @@ const Hero = () => {
       <img
         src={profile.image}
         alt={`${profile.name} profile`}
-        className="w-70 h-70 brightness-70 rounded-full object-cover shadow-2xl shadow-cyan-500/20 dark:shadow-cyan-500/20 mx-auto md:mx-0"
+        className="w-75 h-75 brightness-90 dark:brightness-75 rounded-full object-cover shadow-2xl shadow-cyan-500/20 dark:shadow-cyan-500/20 mx-auto md:mx-0"
       />
 
       <div className="flex-1">
@@ -56,6 +56,13 @@ const Hero = () => {
         <p className="text-gray-700 dark:text-gray-300 text-lg max-w-xl leading-relaxed">
           {profile.description}
         </p>
+        <a
+          href={profile.cv}
+          download
+          className="inline-block mt-6 px-6 py-3 bg-cyan-600 hover:bg-cyan-700 text-white font-semibold rounded-xl transition duration-1000 cursor-pointer"
+        >
+          Download CV
+        </a>
       </div>
     </motion.section>
   );

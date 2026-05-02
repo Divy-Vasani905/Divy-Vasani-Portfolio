@@ -5,7 +5,7 @@ import { portfolioData } from "../constants/data";
 const Footer = () => {
   const { socials, profile } = portfolioData;
   return (
-    <footer className="text-center text-sm text-gray-500 dark:text-gray-400 py-12 border-t border-gray-100 dark:border-gray-800 bg-gray-50/50 dark:bg-black/50 mt-24">
+    <footer className="text-center text-sm text-gray-500 dark:text-gray-400 py-12 border-t border-gray-300 dark:border-gray-800 bg-gray-200 dark:bg-black/50 mt-24">
       <div className="flex justify-center gap-6 mb-6">
         <button
           onClick={() => window.open(socials.github)}

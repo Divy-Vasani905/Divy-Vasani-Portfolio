@@ -3,10 +3,12 @@ import project1 from "../assets/project1.png";
 import project2 from "../assets/project2.png";
 import ChessMate from "../assets/ChessMate.png";
 import FruitMerge from "../assets/FruitMerge.png";
+import CV from "/Divy Vasani CV.pdf";
 
 export const portfolioData = {
   profile: {
     name: "Divy Vasani",
+    cv: CV,
     roles: [
       "Hi, I'm Divy Vasani",
       "Frontend Developer",

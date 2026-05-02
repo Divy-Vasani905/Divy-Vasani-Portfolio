@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { portfolioData } from "../constants/data";
 
-const PersonalInfo = () => {
+const Contact = () => {
   const { personalInfo } = portfolioData;
   return (
     <motion.section
@@ -14,7 +14,7 @@ const PersonalInfo = () => {
       transition={{ duration: 0.5 }}
     >
       <h2 className="text-3xl font-bold mb-8 border-b-2 border-cyan-500 pb-2 inline-block text-gray-800 dark:text-gray-300">
-        Personal Info
+        Contact Me
       </h2>
 
       <div className="grid sm:grid-cols-2 gap-8 text-lg text-gray-700 dark:text-gray-300">
@@ -49,4 +49,4 @@ const PersonalInfo = () => {
   );
 };
 
-export default PersonalInfo;
+export default Contact;
