@@ -51,8 +51,8 @@ export const portfolioData = {
   experience: [
     {
       company: "CodeNova Technologies",
-      role: "React Native Developer",
-      period: "June 2025 - March 2026",
+      role: "React & React Native Developer",
+      period: "June 2025 - May 2026",
       responsibilities: [
         "Developed scalable and responsive web/mobile applications using React, React Native, TypeScript, and Next.js",
         "Built reusable and performance-optimized UI components focused on smooth user experience and clean architecture",
